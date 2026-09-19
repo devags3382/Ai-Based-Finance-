@@ -10,10 +10,16 @@
 
 > **A modern, full-stack, AI-enhanced personal finance and wealth management web application.** Track income and expenses, monitor category budgets in real time, forecast cash flows, generate downloadable PDF monthly reports, and receive personalized financial recommendations powered by OpenAI and automated heuristic analytics.
 
-### 🌐 Live Production Deployment
-- **Frontend App (Vercel)**: [https://client-pied-one-234pves790.vercel.app](https://client-pied-one-234pves790.vercel.app)
-- **Backend API (Render)**: [https://finance-tracker-api-rf1a.onrender.com](https://finance-tracker-api-rf1a.onrender.com)
-- **Database (MongoDB Atlas)**: Cloud M0 Cluster (`Cluster0`)
+### 🌐 Live Production Deployment & Endpoints
+
+| Component | Platform | Live Production URL / Identifier | Status | Health Check |
+| :--- | :--- | :--- | :---: | :--- |
+| **Frontend Web App** | **Vercel** | [https://client-pied-one-234pves790.vercel.app](https://client-pied-one-234pves790.vercel.app) | 🟢 `LIVE` | `/login` |
+| **Backend REST API** | **Render** | [https://finance-tracker-api-rf1a.onrender.com](https://finance-tracker-api-rf1a.onrender.com) | 🟢 `LIVE` | [`/health`](https://finance-tracker-api-rf1a.onrender.com/health) |
+| **Database** | **MongoDB Atlas** | Cloud `Cluster0` (AWS M0 Free Tier) | 🟢 `CONNECTED` | Port `27017` / TLS |
+| **Source Repository** | **GitHub** | [devags3382/Ai-Based-Finance-](https://github.com/devags3382/Ai-Based-Finance-) | 🟢 `MAIN` | Branch `main` |
+
+> 📖 **Full Cloud Infrastructure & Environment Guide**: See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed cloud configurations, environment variables matrix, and verification logs.
 
 ---
 
